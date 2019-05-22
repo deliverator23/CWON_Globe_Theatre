@@ -1,0 +1,12 @@
+Starting AssetCooker...
+XLP cook starting...
+C:\Users\User\Documents\Firaxis ModBuddy\Civilization VI\CWON_Globe_Theatre\CWON_Globe_Theatre\XLPs\WonderMovie.xlp
+Opened output file: C:\Users\User\Documents\My Games\Sid Meier's Civilization VI\Mods\CWON_Globe_Theatre\Platforms\MacOS\BLPs/WonderMovie.blp    For XLP: 'C:\Users\User\Documents\Firaxis ModBuddy\Civilization VI\CWON_Globe_Theatre\CWON_Globe_Theatre\XLPs\WonderMovie.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'WonderMovie'
+Load finished for: 'WonderMovie' in 0.338 seconds
+Cook finished for: 'WonderMovie' in 0.002 seconds
+Disk write finished for: 'WonderMovie' in 0.144 seconds
+Cleanup finished for: 'WonderMovie' in 0.006 seconds
+XLP cook completed with success.
+Cook completed in 2.122 seconds

@@ -1,0 +1,100 @@
+<m_GeometrySet>
+<m_ModelInstances>
+<Element>
+<m_Name text="NWON_Origin_Dummy"/>
+<m_GeoName text="WON_Origin_Dummy"/>
+<m_GroupStates>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Standardmaterial"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+<Element class="AssetObjects..BoolValue">
+<m_bValue>true</m_bValue>
+<m_ParamName text="Visible"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Standardmaterial"/>
+<m_MeshName text="NWON_Origin_Dummy"/>
+<m_StateName text="Unworked"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Standardmaterial"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+<Element class="AssetObjects..BoolValue">
+<m_bValue>true</m_bValue>
+<m_ParamName text="Visible"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Standardmaterial"/>
+<m_MeshName text="NWON_Origin_Dummy"/>
+<m_StateName text="Worked"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Standardmaterial"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+<Element class="AssetObjects..BoolValue">
+<m_bValue>true</m_bValue>
+<m_ParamName text="Visible"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Standardmaterial"/>
+<m_MeshName text="NWON_Origin_Dummy"/>
+<m_StateName text="Pillaged"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Standardmaterial"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+<Element class="AssetObjects..BoolValue">
+<m_bValue>true</m_bValue>
+<m_ParamName text="Visible"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Standardmaterial"/>
+<m_MeshName text="NWON_Origin_Dummy"/>
+<m_StateName text="Unbuilt"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="Standardmaterial"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+<Element class="AssetObjects..BoolValue">
+<m_bValue>true</m_bValue>
+<m_ParamName text="Visible"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="Standardmaterial"/>
+<m_MeshName text="NWON_Origin_Dummy"/>
+<m_StateName text="Construction"/>
+</Element>
+</m_GroupStates>
+</Element>
+</m_ModelInstances>
+</m_GeometrySet>
