@@ -21,6 +21,7 @@
 </Associations>]]></AssociationData>
     <AssemblyName>CWON_Globe_Theatre</AssemblyName>
     <RootNamespace>CWON_Globe_Theatre</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Globe_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Globe_Data"><File>Gameplay/Globe_Theatre_Gameplay.sql</File></UpdateDatabase><UpdateText id="Globe_Text"><File>Text/Globe_Theatre_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
