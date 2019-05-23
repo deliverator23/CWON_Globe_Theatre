@@ -39,130 +39,17 @@
     <Content Include="ArtDefs\WonderMovie.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Globetheatre_Wonder.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\Globetheatre__Globetheatre.ast">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Gameplay\Globe_Theatre_Gameplay.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\globetheatre__globeTheatre.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\globetheatre__globeTheatre.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\globetheatre__globeTheatre_BuildOut.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\globetheatre__globeTheatre_BuildOut.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\globetheatre__Plane01_DCL_Plane01.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\globetheatre__Plane01_DCL_Plane01.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\WON_Origin_Dummy.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\WON_Origin_Dummy.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\dummymaterial.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\globeTheatre.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\globeTheatre_buildout.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\globeTheatre_Ground.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Gloss.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Gloss.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Metalness.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Metalness.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_TintMask.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_TintMask.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Flat_Normal.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Flat_Normal.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre_buildout.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre_buildout.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre_decal_heightmap.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre_decal_heightmap.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre_ground.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\globetheatre_ground.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\White_AO.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\White_AO.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Globe_Theatre_Text.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\strategicview_buildings.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\tilebases.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\UITextures.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\WonderMovie.xlp">
-      <SubType>Content</SubType>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs\" />
-    <Folder Include="Assets\" />
-    <Folder Include="Geometries\" />
-    <Folder Include="Materials\" />
     <Folder Include="Gameplay" />
     <Folder Include="Text" />
-    <Folder Include="Textures\" />
-    <Folder Include="XLPs\" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
