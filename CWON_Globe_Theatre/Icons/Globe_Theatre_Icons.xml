@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<GameInfo>
 	<IconDefinitions>
 		<Row Name="ICON_BUILDING_GLOBE_THEATRE" Atlas="ICON_ATLAS_GLOBE_THEATRE" Index="0"/>
 	</IconDefinitions>
@@ -11,4 +11,4 @@
 		<Row Name="ICON_ATLAS_GLOBE_THEATRE" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Globe_Theatre_128"/>
 		<Row Name="ICON_ATLAS_GLOBE_THEATRE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Icon_Globe_Theatre_256"/>
 	</IconTextureAtlases>
-</GameData>
+</GameInfo>
