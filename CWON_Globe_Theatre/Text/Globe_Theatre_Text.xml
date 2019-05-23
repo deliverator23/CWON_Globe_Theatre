@@ -22,7 +22,10 @@
 		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_3">
 			<Text>The stage was 13 meters (43 feet) wide, 8 meters (27 feet) deep and raised five feet off the ground, allowing for trap doors.</Text>
 		</Row>
-			</EnglishText>
+		<Row Tag="LOC_GLOBE_THEATRE_THEMINGBONUS_WRITING">
+			<Text>[THEMING BONUS TEXT]</Text>
+		</Row>
+	</EnglishText>
 	<LocalizedText>
 		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_NAME" Language="es_ES">
 			<Text>Globe Theatre</Text>

@@ -36,7 +36,7 @@ VALUES		('BUILDING_GLOBE_THEATRE',			'YIELD_CULTURE',	2			);
 
 INSERT INTO Building_GreatWorks
 			(BuildingType,					GreatWorkSlotType,			NumSlots,			ThemingUniquePerson,			ThemingSameObjectType,			ThemingUniqueCivs,			ThemingSameEras,			ThemingYieldMultiplier,			NonUniquePersonYield,			NonUniquePersonTourism,			ThemingBonusDescription					)
-VALUES		('BUILDING_GLOBE_THEATRE',		'GREATWORKSLOT_WRITING',	2,					1,								1,									1,							1,							100,							0,								0,								'LOC_MAGIL_WW_THEMINGBONUS_WRITING'		);
+VALUES		('BUILDING_GLOBE_THEATRE',		'GREATWORKSLOT_WRITING',	2,					1,								1,									1,							1,							100,							0,								0,								'LOC_GLOBE_THEATRE_THEMINGBONUS_WRITING'		);
 			
 -----------------------------------------------------------------------------------
 -- Building_ValidTerrains
