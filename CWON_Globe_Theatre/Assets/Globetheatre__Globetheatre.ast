@@ -26,14 +26,14 @@
 	<m_GeometrySet>
 		<m_ModelInstances>
 			<Element>
-				<m_Name text="globeTheatre"/>
-				<m_GeoName text="globetheatre__globeTheatre"/>
+				<m_Name text="globeTheatre_BuildOut"/>
+				<m_GeoName text="globetheatre__globeTheatre_BuildOut"/>
 				<m_GroupStates>
 					<Element>
 						<m_Values>
 							<m_Values>
 								<Element class="AssetObjects..ObjectValue">
-									<m_ObjectName text="globeTheatre"/>
+									<m_ObjectName text="globeTheatre_buildout"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
@@ -43,8 +43,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="globeTheatre.dds"/>
-						<m_MeshName text="globeTheatre"/>
+						<m_GroupName text="globeTheatre_buildout.dds"/>
+						<m_MeshName text="globeTheatre_BuildOut"/>
 						<m_StateName text="Unworked"/>
 					</Element>
 				</m_GroupStates>
