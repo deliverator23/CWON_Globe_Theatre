@@ -1,6 +1,6 @@
 /*
   Civilization
-  Authors: WitchLychKing
+  Authors: WitchLychKing, Deliverator
 */
 
 -----------------------------------------------
@@ -42,7 +42,7 @@ VALUES
     1, 1, NULL, 0, 1, NULL, NULL, 0, 0, NULL,
     0, 0, 1, NULL, 0, NULL, 0, 0, 0, 0, 'NO_ERA',
     0, 0, 0, 0, 0, 'LOC_BUILDING_GLOBE_THEATRE_QUOTE',
-    NULL, 0, 'ADVISOR_GENERIC', 0, NULL,
+    NULL, 0, 'ADVISOR_CULTURE', 0, NULL,
     NULL, 0, NULL
   );
 
@@ -65,13 +65,12 @@ INSERT INTO Building_GreatWorks (
   BuildingType, GreatWorkSlotType,
   NumSlots, ThemingUniquePerson, ThemingSameObjectType,
   ThemingUniqueCivs, ThemingSameEras,
-  ThemingYieldMultiplier, NonUniquePersonYield,
-  NonUniquePersonTourism, ThemingBonusDescription
+  ThemingYieldMultiplier, ThemingTourismMultiplier, NonUniquePersonYield, NonUniquePersonTourism, ThemingBonusDescription
 )
 VALUES
   (
     'BUILDING_GLOBE_THEATRE', 'GREATWORKSLOT_WRITING',
-    2, 0, 1, 0, 1, 100, 0, 0, 'LOC_GLOBE_THEATRE_THEMINGBONUS_WRITING'
+    2, 0, 0, 0, 1, 100, 100, 1, 1, 'LOC_GLOBE_THEATRE_THEMINGBONUS_WRITING'
   );
 
 -----------------------------------------------------------------------------------
@@ -93,15 +92,12 @@ VALUES
 -- Requirements
 -----------------------------------------------------------------------------------
 INSERT INTO Requirements (
-  RequirementId, RequirementType, Likeliness,
-  Impact, Inverse, Reverse, Persistent,
-  ProgressWeight, Triggered
+  RequirementId, RequirementType
 )
 VALUES
   (
     'REQUIRES_PLAYER_CAN_EVER_EARN_WRITER',
-    'REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS',
-    0, 0, 0, 0, 0, 1, 0
+    'REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS'
   );
 
 -----------------------------------------------------------------------------------
@@ -129,17 +125,7 @@ VALUES
 -----------------------------------------------------------------------------------
 -- RequirementArguments
 -----------------------------------------------------------------------------------
-INSERT INTO RequirementArguments (
-  RequirementId, Name, Type, Value, Extra,
-  SecondExtra
-)
-VALUES
-  (
-    'REQUIRES_PLAYER_CAN_EVER_EARN_WRITER',
-    'GreatPersonClass', 'ARGTYPE_IDENTITY',
-    'GREAT_PERSON_CLASS_WRITER', NULL,
-    NULL
-  );
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES ('REQUIRES_PLAYER_CAN_EVER_EARN_WRITER', 'GreatPersonClass', 'GREAT_PERSON_CLASS_WRITER');
 
 -----------------------------------------------------------------------------------
 -- Modifiers
