@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_BUILDING_BURJ_KHALIFA_NAME">
+			<Text>Burj Khalifa</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BURJ_KHALIFA_DESCRIPTION">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_BURJ_KHALIFA_QUOTE">
+			<Text>"I am the heart of the city and its people, the marker that defines ... Dubai's shiny dream. More than just a moment in time, I define moments for future generations. I am Burj Khalifa." - inscription at the entrance</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BURJ_KHALIFA_CHAPTER_HISTORY_PARA_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BURJ_KHALIFA_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BURJ_KHALIFA_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+	</EnglishText>
+</GameData>

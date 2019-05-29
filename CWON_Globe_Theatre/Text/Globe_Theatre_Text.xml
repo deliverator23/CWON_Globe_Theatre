@@ -23,7 +23,7 @@
 			<Text>The stage was 13 meters (43 feet) wide, 8 meters (27 feet) deep and raised five feet off the ground, allowing for trap doors.</Text>
 		</Row>
 		<Row Tag="LOC_GLOBE_THEATRE_THEMINGBONUS_WRITING">
-			<Text>[THEMING BONUS TEXT]</Text>
+			<Text>[LOC_GLOBE_THEATRE_THEMINGBONUS_WRITING]</Text>
 		</Row>
 	</EnglishText>
 	<LocalizedText>
