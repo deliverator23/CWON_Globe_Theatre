@@ -2,25 +2,23 @@
 INSERT INTO Types (Type, Kind) VALUES ('BUILDING_BURJ_KHALIFA', 'KIND_BUILDING');
 
 INSERT INTO Buildings (BuildingType, Name, Description, PrereqTech, Cost, AdvisorType, MaxWorldInstances, IsWonder, RequiresPlacement, Quote)
-VALUES ('BUILDING_BURJ_KHALIFA', 'LOC_BUILDING_BURJ_KHALIFA_NAME', 'LOC_BUILDING_BURJ_KHALIFA_DESCRIPTION', 'TECH_BANKING', 999, 'ADVISOR_CULTURE', '1', 1, 1, 'LOC_BUILDING_BURJ_KHALIFA_QUOTE');
-
---Awards +9 Oil.
+VALUES ('BUILDING_BURJ_KHALIFA', 'LOC_BUILDING_BURJ_KHALIFA_NAME', 'LOC_BUILDING_BURJ_KHALIFA_DESCRIPTION', 'TECH_PLASTICS', 	1850, 'ADVISOR_CULTURE', '1', 1, 1, 'LOC_BUILDING_BURJ_KHALIFA_QUOTE');
 
 INSERT INTO Building_YieldChanges (
   BuildingType, YieldType, YieldChange
 )
-VALUES
-  (
-    'BUILDING_BURJ_KHALIFA', 'YIELD_GOLD', 2
-  );
+VALUES ('BUILDING_BURJ_KHALIFA', 'YIELD_GOLD', 2);
+
+INSERT INTO Building_GreatPersonPoints (BuildingType, GreatPersonClassType, PointsPerTurn) VALUES ('BUILDING_BURJ_KHALIFA', 'GREAT_PERSON_CLASS_ENGINEER', '4');
 
 INSERT INTO Building_ValidTerrains (BuildingType, TerrainType)
-VALUES
-  (
-    'BUILDING_BURJ_KHALIFA', 'TERRAIN_DESERT'
-  );
+VALUES ('BUILDING_BURJ_KHALIFA', 'TERRAIN_DESERT');
 
--- Oil Wells, Oil Rigs and Mines yield +2 Culture.
+--Awards +9 Oil.
+
+--todo
+
+-- Oil Wells, Oil Rigs and Mines within 9 tiles yield +2 Culture.
 
 INSERT INTO Requirements
 		(RequirementId,								RequirementType)
@@ -30,7 +28,7 @@ VALUES	('REQUIRES_PLOT_HAS_BURJ_KHALIFA_WITHIN_9',	'REQUIREMENT_PLOT_ADJACENT_BU
 
 INSERT INTO RequirementArguments
 		(RequirementId,								Name,			Value)
-VALUES	('REQUIRES_PLOT_HAS_BURJ_KHALIFA_WITHIN_9',	'BuildingType',	'P0K_BUILDING_TEMPLE_POSEIDON'),
+VALUES	('REQUIRES_PLOT_HAS_BURJ_KHALIFA_WITHIN_9',	'BuildingType',	'BUILDING_BURJ_KHALIFA'),
 		('REQUIRES_PLOT_HAS_BURJ_KHALIFA_WITHIN_9',	'MaxRange',		9),
 		('REQUIRES_PLOT_HAS_BURJ_KHALIFA_WITHIN_9',	'MinRange',		0),
 		('REQUIRES_PLOT_HAS_OIL_WELL', 'ImprovementType', 'IMPROVEMENT_OIL_WELL'),
@@ -66,10 +64,10 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_INCREASED_
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_INCREASED_OFFSHORE_OIL_RIG_CULTURE', 'YieldType', 'YIELD_CULTURE');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_INCREASED_OFFSHORE_OIL_RIG_CULTURE', 'Amount', '2');
 
-
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BURJ_KHALIFA', 'BURJ_INCREASED_MINE_CULTURE');
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BURJ_KHALIFA', 'BURJ_INCREASED_OIL_WELL_CULTURE');
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BURJ_KHALIFA', 'BURJ_INCREASED_OFFSHORE_OIL_RIG_CULTURE');
+
 
 -- +33% Gold in this city.
 INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ('BURJ_KHALIFA_ADDGOLDYIELD', 'MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER');
@@ -79,11 +77,10 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_AD
 
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BURJ_KHALIFA', 'BURJ_KHALIFA_ADDGOLDYIELD');
 
+
 -- +1 Trade Route
 INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ('BURJ_KHALIFA_ADDTRADEROUTE', 'MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY');
 
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_ADDTRADEROUTE', 'Amount', '1');
 
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BURJ_KHALIFA', 'BURJ_KHALIFA_ADDTRADEROUTE');
-
-
