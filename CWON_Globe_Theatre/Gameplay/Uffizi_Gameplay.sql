@@ -33,6 +33,7 @@ VALUES
     3, 0, 0, 0, 1, 100, 100, 1, 1, 'LOC_UFFIZI_THEMINGBONUS_ART'
   );
 
+-- 1 free Great Artist appears near the city where the wonder was built
 INSERT INTO Requirements (RequirementId, RequirementType) VALUES ('REQUIRES_PLAYER_CAN_EVER_EARN_ARTIST', 'REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS');
 
 INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES ('REQUIRES_PLAYER_CAN_EVER_EARN_ARTIST', 'GreatPersonClass', 'GREAT_PERSON_CLASS_ARTIST');
@@ -40,7 +41,6 @@ INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES ('REQUIRES_
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES ('UFFIZI_ARTIST_REQUIREMENTS', 'REQUIREMENTSET_TEST_ALL');
 
 INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES ('UFFIZI_ARTIST_REQUIREMENTS', 'REQUIRES_PLAYER_CAN_EVER_EARN_ARTIST');
-
 
 INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId, RunOnce, Permanent)
 VALUES ('UFFIZI_GRANT_ARTIST', 'MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY', 'UFFIZI_ARTIST_REQUIREMENTS', 1, 1);

@@ -88,9 +88,9 @@ VALUES
     'BUILDING_GLOBE_THEATRE', 'TERRAIN_TUNDRA'
   );
 
------------------------------------------------------------------------------------
--- Requirements
------------------------------------------------------------------------------------
+
+-- 1 free Great Writer appears near the city where the wonder was built
+
 INSERT INTO Requirements (
   RequirementId, RequirementType
 )
@@ -100,9 +100,7 @@ VALUES
     'REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS'
   );
 
------------------------------------------------------------------------------------
--- RequirementSets
------------------------------------------------------------------------------------
+
 INSERT INTO RequirementSets (
   RequirementSetId, RequirementSetType
 )
@@ -112,9 +110,7 @@ VALUES
     'REQUIREMENTSET_TEST_ALL'
   );
 
------------------------------------------------------------------------------------
--- RequirementSetRequirements
------------------------------------------------------------------------------------
+
 INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId)
 VALUES
   (
@@ -122,14 +118,8 @@ VALUES
     'REQUIRES_PLAYER_CAN_EVER_EARN_WRITER'
   );
 
------------------------------------------------------------------------------------
--- RequirementArguments
------------------------------------------------------------------------------------
 INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES ('REQUIRES_PLAYER_CAN_EVER_EARN_WRITER', 'GreatPersonClass', 'GREAT_PERSON_CLASS_WRITER');
 
------------------------------------------------------------------------------------
--- Modifiers
------------------------------------------------------------------------------------
 INSERT INTO Modifiers (
   ModifierId, ModifierType, RunOnce,
   NewOnly, Permanent, OwnerRequirementSetId,
@@ -143,20 +133,13 @@ VALUES
     NULL, NULL
   );
 
------------------------------------------------------------------------------------
--- ModifierArguments
------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments (
-  ModifierId, Name, Type, Value, Extra,
-  SecondExtra
+  ModifierId, Name,  Value
 )
 VALUES
   (
-    'GLOBE_THEATRE_GRANT_WRITER', 'GreatPersonClassType',
-    'ARGTYPE_IDENTITY', 'GREAT_PERSON_CLASS_WRITER',
-    NULL, NULL
+    'GLOBE_THEATRE_GRANT_WRITER', 'GreatPersonClassType', 'GREAT_PERSON_CLASS_WRITER'
   ),
   (
-    'GLOBE_THEATRE_GRANT_WRITER', 'Amount',
-    'ARGTYPE_IDENTITY', 1, NULL, NULL
+    'GLOBE_THEATRE_GRANT_WRITER', 'Amount', 1
   );

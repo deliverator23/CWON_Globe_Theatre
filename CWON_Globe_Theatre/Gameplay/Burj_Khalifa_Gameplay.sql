@@ -9,17 +9,23 @@ INSERT INTO Building_YieldChanges (
 )
 VALUES ('BUILDING_BURJ_KHALIFA', 'YIELD_GOLD', 2);
 
-INSERT INTO Building_GreatPersonPoints (BuildingType, GreatPersonClassType, PointsPerTurn) VALUES ('BUILDING_BURJ_KHALIFA', 'GREAT_PERSON_CLASS_ENGINEER', '4');
+INSERT INTO Building_GreatPersonPoints (BuildingType, GreatPersonClassType, PointsPerTurn)
+VALUES ('BUILDING_BURJ_KHALIFA', 'GREAT_PERSON_CLASS_ENGINEER', '4');
 
 INSERT INTO Building_ValidTerrains (BuildingType, TerrainType)
 VALUES ('BUILDING_BURJ_KHALIFA', 'TERRAIN_DESERT');
 
---Awards +9 Oil.
 
---todo
+--Awards +9 Oil.
+INSERT INTO Modifiers
+(ModifierId, ModifierType)
+VALUES	('BURJ_KHALIFA_GRANT_OIL_PER_TURN',	'MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_GRANT_OIL_PER_TURN', 'ResourceType', 'RESOURCE_OIL');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_GRANT_OIL_PER_TURN', 'Amount', '9');
+
 
 -- Oil Wells, Oil Rigs and Mines within 9 tiles yield +2 Culture.
-
 INSERT INTO Requirements
 		(RequirementId,								RequirementType)
 VALUES	('REQUIRES_PLOT_HAS_BURJ_KHALIFA_WITHIN_9',	'REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES'),
