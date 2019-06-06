@@ -9,6 +9,10 @@
 	<m_ClassName text="TileBase"/>
 	<m_PackageName text="landmarks/tilebases"/>
 	<m_Entries>
+	<Element>
+				<m_EntryID text="PROP_Crane_LG_Construction_Anim"/>
+    			<m_ObjectName text="PROP_Crane_LG_Construction_Anim"/>
+	</Element>
 		<Element>
 			<m_EntryID text="Globetheatre__Globetheatre"/>
 			<m_ObjectName text="Globetheatre__Globetheatre"/>
