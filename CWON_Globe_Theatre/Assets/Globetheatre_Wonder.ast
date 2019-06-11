@@ -196,14 +196,6 @@
 								<m_Name text="Light"/>
 								<m_Type>LIGHT</m_Type>
 							</Element>
-							<Element>
-								<m_Name text="Asset VFX"/>
-								<m_Type>ASSET_FX</m_Type>
-							</Element>
-							<Element>
-								<m_Name text="Asset VFX"/>
-								<m_Type>ASSET_FX</m_Type>
-							</Element>
 						</m_Tracks>
 					</Element>
 				</m_Timelines>
@@ -310,7 +302,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Crane_LG_Anim"/>
+									<m_EntryName text="PROP_Crane_LG_Construction_Anim"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
