@@ -196,6 +196,14 @@
 								<m_Name text="Light"/>
 								<m_Type>LIGHT</m_Type>
 							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
+							<Element>
+								<m_Name text="Asset VFX"/>
+								<m_Type>ASSET_FX</m_Type>
+							</Element>
 						</m_Tracks>
 					</Element>
 				</m_Timelines>
@@ -284,14 +292,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>26.194820</x>
-							<y>-11.565575</y>
+							<x>26.441481</x>
+							<y>15.732092</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>0.000000</z>
+							<z>1.570796</z>
 						</m_orientation>
 						<m_Name text="PROP_Crane_LG_Anim_001"/>
 						<m_BoneName text="NWON_Origin_Dummy"/>
@@ -332,14 +340,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-25.429346</x>
-							<y>12.753456</y>
+							<x>-13.864587</x>
+							<y>-21.912920</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>0.000000</z>
+							<z>-1.221730</z>
 						</m_orientation>
 						<m_Name text="PROP_Crane_LG_Anim_002"/>
 						<m_BoneName text="NWON_Origin_Dummy"/>
