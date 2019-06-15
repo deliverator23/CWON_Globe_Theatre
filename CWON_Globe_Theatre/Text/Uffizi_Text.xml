@@ -19,8 +19,8 @@
 		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_UFFIZI_CHAPTER_HISTORY_PARA_3">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_UFFIZI_THEMINGBONUS_WRITING">
-			<Text>[LOC_UFFIZI_THEMINGBONUS_WRITIN]</Text>
+		<Row Tag="LOC_UFFIZI_THEMINGBONUS_ART">
+			<Text>Theming bonus doubling output when displaying Great Works of Art from the same era.</Text>
 		</Row>
 	</EnglishText>
 </GameData>

@@ -1206,7 +1206,6 @@
 						<m_ModelInstanceName text="WON_Dummy"/>
 						<m_scale>0.75</m_scale>
 					</Element>
-
 				</m_Points>
 			</m_attachmentPoints>
 			<m_stateSet/>
