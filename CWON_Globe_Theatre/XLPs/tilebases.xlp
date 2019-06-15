@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..XLP>
-	<m_Version>
-		<major>4</major>
-		<minor>0</minor>
-		<build>415</build>
-		<revision>990</revision>
-	</m_Version>
-	<m_ClassName text="TileBase"/>
-	<m_PackageName text="landmarks/tilebases"/>
-	<m_Entries>
-	<Element>
-				<m_EntryID text="PROP_Crane_LG_Construction_Anim"/>
-    			<m_ObjectName text="PROP_Crane_LG_Construction_Anim"/>
-	</Element>
-		<Element>
-			<m_EntryID text="Globetheatre__Globetheatre"/>
-			<m_ObjectName text="Globetheatre__Globetheatre"/>
-		</Element>
-	</m_Entries>
-	<m_AllowedPlatforms>
-		<Element>WINDOWS</Element>
-		<Element>LINUX</Element>
-		<Element>MACOS</Element>
-		<Element>IOS</Element>
-	</m_AllowedPlatforms>
+    <m_Version>
+        <major>4</major>
+        <minor>0</minor>
+        <build>415</build>
+        <revision>990</revision>
+    </m_Version>
+    <m_ClassName text="TileBase"/>
+    <m_PackageName text="landmarks/tilebases"/>
+    <m_Entries>
+        <Element>
+            <m_EntryID text="PROP_Crane_LG_Construction_Anim"/>
+            <m_ObjectName text="PROP_Crane_LG_Construction_Anim"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Globetheatre__Globetheatre"/>
+            <m_ObjectName text="Globetheatre__Globetheatre"/>
+        </Element>
+        <Element>
+            <m_EntryID text="Globetheatre__HB"/>
+            <m_ObjectName text="Globetheatre__HB"/>
+        </Element>
+    </m_Entries>
+    <m_AllowedPlatforms>
+        <Element>WINDOWS</Element>
+        <Element>LINUX</Element>
+        <Element>MACOS</Element>
+        <Element>IOS</Element>
+    </m_AllowedPlatforms>
 </AssetObjects..XLP>
 

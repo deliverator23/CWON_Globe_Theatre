@@ -26,14 +26,14 @@
 	<m_GeometrySet>
 		<m_ModelInstances>
 			<Element>
-				<m_Name text="globeTheatre"/>
-				<m_GeoName text="Globe_Theatre"/>
+				<m_Name text="globeTheatre_BuildOut"/>
+				<m_GeoName text="globetheatre__globeTheatre_BuildOut"/>
 				<m_GroupStates>
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
-									<m_ObjectName text="globeTheatre"/>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="globeTheatre_buildout"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
@@ -43,15 +43,21 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="globeTheatre.dds"/>
-						<m_MeshName text="globeTheatreMesh"/>
+						<m_GroupName text="globeTheatre_buildout.dds"/>
+						<m_MeshName text="globeTheatre_BuildOut"/>
 						<m_StateName text="Worked"/>
 					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="globeTheatre_BuildOut"/>
+				<m_GeoName text="globetheatre__globeTheatre_BuildOut"/>
+				<m_GroupStates>
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
-									<m_ObjectName text="globeTheatre"/>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="globeTheatre_buildout"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
@@ -61,15 +67,21 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="globeTheatre.dds"/>
-						<m_MeshName text="globeTheatreMesh"/>
+						<m_GroupName text="globeTheatre_buildout.dds"/>
+						<m_MeshName text="globeTheatre_BuildOut"/>
 						<m_StateName text="Unworked"/>
 					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="Plane01"/>
+				<m_GeoName text="globetheatre__Plane01_DCL_Plane01"/>
+				<m_GroupStates>
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
-									<m_ObjectName text="globeTheatre"/>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="globeTheatre_Ground"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
@@ -79,8 +91,32 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="globeTheatre.dds"/>
-						<m_MeshName text="globeTheatreMesh"/>
+						<m_GroupName text="globeTheatre_Ground.dds"/>
+						<m_MeshName text="Plane01"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="globeTheatre_BuildOut"/>
+				<m_GeoName text="globetheatre__globeTheatre_BuildOut"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="globeTheatre_buildout_PIL"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="globeTheatre_buildout.dds"/>
+						<m_MeshName text="globeTheatre_BuildOut"/>
 						<m_StateName text="Pillaged"/>
 					</Element>
 				</m_GroupStates>
@@ -105,7 +141,7 @@
 						</m_Values>
 						<m_GroupName text="globeTheatre_Ground.dds"/>
 						<m_MeshName text="Plane01"/>
-						<m_StateName text="Worked"/>
+						<m_StateName text="Pillaged"/>
 					</Element>
 				</m_GroupStates>
 			</Element>
@@ -192,8 +228,8 @@
 	<m_Materials/>
 	<m_ClassName text="TileBase"/>
 	<m_DataFiles/>
-	<m_Name text="Globetheatre__Globetheatre"/>
-	<m_Description text="Globetheatre__Globetheatre"/>
+	<m_Name text="Globetheatre__HB"/>
+	<m_Description text="Globetheatre__HB"/>
 	<m_Tags>
 		<Element text="TileBase"/>
 	</m_Tags>
