@@ -362,7 +362,7 @@
 							<z>1.570796</z>
 						</m_orientation>
 						<m_Name text="PROP_Crane_LG_Anim_001"/>
-						<m_BoneName text="HB_Bone"/>
+						<m_BoneName text="WON_Dummy"/>
 						<m_ModelInstanceName text="WON_Dummy"/>
 						<m_scale>1.000000</m_scale>
 					</Element>
@@ -410,7 +410,7 @@
 							<z>-1.221730</z>
 						</m_orientation>
 						<m_Name text="PROP_Crane_LG_Anim_002"/>
-						<m_BoneName text="HB_Bone"/>
+						<m_BoneName text="WON_Dummy"/>
 						<m_ModelInstanceName text="WON_Dummy"/>
 						<m_scale>1.000000</m_scale>
 					</Element>
