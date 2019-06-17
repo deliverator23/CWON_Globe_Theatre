@@ -268,7 +268,7 @@
 						<m_Name text="Globe"/>
 						<m_BoneName text="WON_Bone"/>
 						<m_ModelInstanceName text="WON_Dummy"/>
-						<m_scale>4.900000</m_scale>
+						<m_scale>4.5</m_scale>
 					</Element>
 					<Element>
 						<m_CookParams>
@@ -316,7 +316,7 @@
 						<m_Name text="Globe_HB"/>
 						<m_BoneName text="HB_Bone"/>
 						<m_ModelInstanceName text="WON_Dummy"/>
-						<m_scale>4.900000</m_scale>
+						<m_scale>4.5</m_scale>
 					</Element>
 					<Element>
 						<m_CookParams>
@@ -580,14 +580,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>17.432050</x>
-							<y>-1.512035</y>
+							<x>15.688845</x>
+							<y>-1.360831</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>0.986604</z>
+							<z>1.115449</z>
 						</m_orientation>
 						<m_Name text="Foliage101"/>
 						<m_BoneName text="WON_Bone"/>
@@ -616,14 +616,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>16.522700</x>
-							<y>-5.886250</y>
+							<x>14.870430</x>
+							<y>-5.297625</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.561089</z>
+							<z>0.659924</z>
 						</m_orientation>
 						<m_Name text="Foliage102"/>
 						<m_BoneName text="WON_Bone"/>
@@ -652,14 +652,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>14.354700</x>
-							<y>-9.912750</y>
+							<x>12.919230</x>
+							<y>-8.921475</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.054158</z>
+							<z>0.822897</z>
 						</m_orientation>
 						<m_Name text="Foliage103"/>
 						<m_BoneName text="WON_Bone"/>
@@ -688,14 +688,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>7.299600</x>
-							<y>-15.942050</y>
+							<x>6.569640</x>
+							<y>-14.347845</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.200549</z>
+							<z>2.895316</z>
 						</m_orientation>
 						<m_Name text="Foliage104"/>
 						<m_BoneName text="WON_Bone"/>
@@ -724,14 +724,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>4.976040</x>
-							<y>-21.231800</y>
+							<x>4.478436</x>
+							<y>-19.108620</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>1.589485</z>
+							<z>1.206463</z>
 						</m_orientation>
 						<m_Name text="Foliage105"/>
 						<m_BoneName text="WON_Bone"/>
@@ -760,14 +760,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>2.030880</x>
-							<y>-21.762000</y>
+							<x>1.827792</x>
+							<y>-19.585800</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>1.724613</z>
+							<z>2.149146</z>
 						</m_orientation>
 						<m_Name text="Foliage106"/>
 						<m_BoneName text="WON_Bone"/>
@@ -796,14 +796,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-1.940095</x>
-							<y>-17.932600</y>
+							<x>-1.746085</x>
+							<y>-16.139340</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.803427</z>
+							<z>0.993612</z>
 						</m_orientation>
 						<m_Name text="Foliage107"/>
 						<m_BoneName text="WON_Bone"/>
@@ -832,14 +832,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-10.523000</x>
-							<y>-14.259250</y>
+							<x>-9.470700</x>
+							<y>-12.833325</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.301158</z>
+							<z>1.132212</z>
 						</m_orientation>
 						<m_Name text="Foliage108"/>
 						<m_BoneName text="WON_Bone"/>
@@ -868,14 +868,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-14.020750</x>
-							<y>-11.359600</y>
+							<x>-12.618675</x>
+							<y>-10.223640</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>1.971198</z>
+							<z>1.656518</z>
 						</m_orientation>
 						<m_Name text="Foliage109"/>
 						<m_BoneName text="WON_Bone"/>
@@ -904,14 +904,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-16.384700</x>
-							<y>-7.582350</y>
+							<x>-14.746230</x>
+							<y>-6.824115</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.720722</z>
+							<z>2.146819</z>
 						</m_orientation>
 						<m_Name text="Foliage110"/>
 						<m_BoneName text="WON_Bone"/>
@@ -940,14 +940,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>17.071850</x>
-							<y>3.776360</y>
+							<x>15.364665</x>
+							<y>3.398724</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>1.927934</z>
+							<z>0.675355</z>
 						</m_orientation>
 						<m_Name text="Foliage111"/>
 						<m_BoneName text="WON_Bone"/>
@@ -976,14 +976,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>15.722850</x>
-							<y>8.023250</y>
+							<x>14.150565</x>
+							<y>7.220925</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.679596</z>
+							<z>1.716402</z>
 						</m_orientation>
 						<m_Name text="Foliage112"/>
 						<m_BoneName text="WON_Bone"/>
@@ -1012,14 +1012,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>13.057250</x>
-							<y>11.702450</y>
+							<x>11.751525</x>
+							<y>10.532205</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>1.388307</z>
+							<z>2.471397</z>
 						</m_orientation>
 						<m_Name text="Foliage113"/>
 						<m_BoneName text="WON_Bone"/>
@@ -1048,14 +1048,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>1.071490</x>
-							<y>18.385150</y>
+							<x>0.964341</x>
+							<y>16.546635</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>0.545026</z>
+							<z>0.642957</z>
 						</m_orientation>
 						<m_Name text="Foliage114"/>
 						<m_BoneName text="WON_Bone"/>
@@ -1084,14 +1084,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-8.189850</x>
-							<y>16.497900</y>
+							<x>-7.370865</x>
+							<y>14.848110</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>1.715176</z>
+							<z>0.611035</z>
 						</m_orientation>
 						<m_Name text="Foliage115"/>
 						<m_BoneName text="WON_Bone"/>
@@ -1120,14 +1120,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-15.311800</x>
-							<y>10.547700</y>
+							<x>-13.780620</x>
+							<y>9.492930</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>1.827400</z>
+							<z>2.475803</z>
 						</m_orientation>
 						<m_Name text="Foliage116"/>
 						<m_BoneName text="WON_Bone"/>
@@ -1156,14 +1156,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-17.524600</x>
-							<y>6.545650</y>
+							<x>-15.772140</x>
+							<y>5.891085</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>0.091793</z>
+							<z>1.711833</z>
 						</m_orientation>
 						<m_Name text="Foliage117"/>
 						<m_BoneName text="WON_Bone"/>
@@ -1192,14 +1192,14 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>-18.482750</x>
-							<y>2.181865</y>
+							<x>-16.634475</x>
+							<y>1.963679</y>
 							<z>0</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>2.241281</z>
+							<z>0.067802</z>
 						</m_orientation>
 						<m_Name text="Foliage118"/>
 						<m_BoneName text="WON_Bone"/>

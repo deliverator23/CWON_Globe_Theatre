@@ -1,20 +1,10 @@
-/*
-  Civilization
-  Authors: WitchLychKing, Deliverator
-*/
 
------------------------------------------------
--- Types
------------------------------------------------
 INSERT INTO Types (Type, Kind)
 VALUES
   (
     'BUILDING_GLOBE_THEATRE', 'KIND_BUILDING'
   );
 
------------------------------------------------------------------------------------
--- Buildings
------------------------------------------------------------------------------------
 INSERT INTO Buildings (
   BuildingType, Name, PrereqTech, PrereqCivic,
   Cost, MaxPlayerInstances, MaxWorldInstances,
@@ -46,9 +36,11 @@ VALUES
     NULL, 0, NULL
   );
 
------------------------------------------------------------------------------------
--- Building_YieldChanges
------------------------------------------------------------------------------------
+
+INSERT INTO Building_GreatPersonPoints (BuildingType, GreatPersonClassType, PointsPerTurn)
+VALUES ('BUILDING_GLOBE_THEATRE', 'GREAT_PERSON_CLASS_WRITER', '2');
+
+
 INSERT INTO Building_YieldChanges (
   BuildingType, YieldType, YieldChange
 )
@@ -58,24 +50,15 @@ VALUES
     2
   );
 
------------------------------------------------------------------------------------
--- Building_GreatWorks
------------------------------------------------------------------------------------
+
 INSERT INTO Building_GreatWorks (
-  BuildingType, GreatWorkSlotType,
-  NumSlots, ThemingUniquePerson, ThemingSameObjectType,
-  ThemingUniqueCivs, ThemingSameEras,
-  ThemingYieldMultiplier, ThemingTourismMultiplier, NonUniquePersonYield, NonUniquePersonTourism, ThemingBonusDescription
+  BuildingType, GreatWorkSlotType, NumSlots
 )
 VALUES
   (
-    'BUILDING_GLOBE_THEATRE', 'GREATWORKSLOT_WRITING',
-    2, 0, 0, 0, 1, 100, 100, 1, 1, 'LOC_GLOBE_THEATRE_THEMINGBONUS_WRITING'
+    'BUILDING_GLOBE_THEATRE', 'GREATWORKSLOT_WRITING', 2
   );
 
------------------------------------------------------------------------------------
--- Building_ValidTerrains
------------------------------------------------------------------------------------
 INSERT INTO Building_ValidTerrains (BuildingType, TerrainType)
 VALUES
   (
@@ -121,16 +104,13 @@ VALUES
 INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES ('REQUIRES_PLAYER_CAN_EVER_EARN_WRITER', 'GreatPersonClass', 'GREAT_PERSON_CLASS_WRITER');
 
 INSERT INTO Modifiers (
-  ModifierId, ModifierType, RunOnce,
-  NewOnly, Permanent, OwnerRequirementSetId,
-  SubjectRequirementSetId, OwnerStackLimit,
-  SubjectStackLimit
+  ModifierId, ModifierType, RunOnce, Permanent,
+  SubjectRequirementSetId
 )
 VALUES
   (
     'GLOBE_THEATRE_GRANT_WRITER', 'MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY',
-    1, 0, 1, NULL, 'GLOBE_THEATRE_WRITER_REQUIREMENTS',
-    NULL, NULL
+    1, 1,  'GLOBE_THEATRE_WRITER_REQUIREMENTS'
   );
 
 INSERT INTO ModifierArguments (
@@ -143,3 +123,64 @@ VALUES
   (
     'GLOBE_THEATRE_GRANT_WRITER', 'Amount', 1
   );
+
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_GLOBE_THEATRE', 'GLOBE_THEATRE_GRANT_WRITER');
+
+
+-- +1 Amenities for any City with Amphitheater
+
+INSERT INTO Requirements (RequirementId, RequirementType) VALUES ('REQUIRES_CITY_HAS_AMPHITHEATER_GLOBE', 'REQUIREMENT_CITY_HAS_BUILDING');
+
+INSERT INTO RequirementArguments (RequirementId, Name, Value) VALUES ('REQUIRES_CITY_HAS_AMPHITHEATER_GLOBE', 'BuildingType', 'BUILDING_AMPHITHEATER');
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES ('REQUIREMENTS_CITY_HAS_AMPHITHEATER_GLOBE', 'REQUIREMENTSET_TEST_ANY');
+
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES ('REQUIREMENTS_CITY_HAS_AMPHITHEATER_GLOBE', 'REQUIRES_CITY_HAS_AMPHITHEATER_GLOBE');
+
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+VALUES ('GLOBE_THEATRE_AMPHITHEATER_AMENITY_MODIFIER', 'MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY', 'REQUIREMENTS_CITY_HAS_AMPHITHEATER_GLOBE');
+
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('GLOBE_THEATRE_AMPHITHEATER_AMENITY_MODIFIER', 'Amount', '1');
+
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_GLOBE_THEATRE', 'GLOBE_THEATRE_AMPHITHEATER_AMENITY_MODIFIER');
+
+
+-- Add Renaissance Great Writers - John Donne, Moliere and Dante.
+INSERT INTO Types
+			(Type,										Kind)
+VALUES		('GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE',	'KIND_GREAT_PERSON_INDIVIDUAL'),
+			('GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE',		'KIND_GREAT_PERSON_INDIVIDUAL'),
+			('GREAT_PERSON_INDIVIDUAL_CWON_DANTE',	'KIND_GREAT_PERSON_INDIVIDUAL'),
+			('GREATWORK_CWON_JOHN_DONNE_1',						'KIND_GREATWORK'),
+			('GREATWORK_CWON_JOHN_DONNE_2',						'KIND_GREATWORK'),
+			('GREATWORK_CWON_MOLIERE_1',						'KIND_GREATWORK'),
+			('GREATWORK_CWON_MOLIERE_2',						'KIND_GREATWORK'),
+			('GREATWORK_CWON_DANTE_1',						'KIND_GREATWORK'),
+			('GREATWORK_CWON_DANTE_2',						'KIND_GREATWORK');
+
+INSERT INTO GreatPersonIndividuals
+			(GreatPersonIndividualType,						Name,													GreatPersonClassType,			EraType,			Gender,	ActionCharges)
+VALUES
+			('GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE',	'LOC_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_NAME',	'GREAT_PERSON_CLASS_WRITER',	'ERA_RENAISSANCE',	'M',	0),
+			('GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE',	'LOC_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_NAME',	'GREAT_PERSON_CLASS_WRITER',	'ERA_RENAISSANCE',	'M',	0),
+			('GREAT_PERSON_INDIVIDUAL_CWON_DANTE',		'LOC_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_NAME',		'GREAT_PERSON_CLASS_WRITER',	'ERA_RENAISSANCE',	'M',	0);
+
+INSERT INTO GreatWorks
+			(GreatWorkType,					GreatWorkObjectType,			GreatPersonIndividualType,						Name,											Quote,										Tourism,	Audio)
+VALUES		('GREATWORK_CWON_JOHN_DONNE_1',	'GREATWORKOBJECT_WRITING',		'GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE',		'LOC_GREATWORK_CWON_JOHN_DONNE_1_NAME',			'LOC_GREATWORK_CWON_JOHN_DONNE_1_QUOTE',	4,			''),
+			('GREATWORK_CWON_JOHN_DONNE_2',	'GREATWORKOBJECT_WRITING',		'GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE',		'LOC_GREATWORK_CWON_JOHN_DONNE_2_NAME',			'LOC_GREATWORK_CWON_JOHN_DONNE_2_QUOTE',	4,			''),
+			('GREATWORK_CWON_MOLIERE_1',	'GREATWORKOBJECT_WRITING',		'GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE',	'LOC_GREATWORK_CWON_MOLIERE_1_NAME',	'LOC_GREATWORK_CWON_MOLIERE_1_QUOTE',	4,	''),
+			('GREATWORK_CWON_MOLIERE_2',	'GREATWORKOBJECT_WRITING',		'GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE',	'LOC_GREATWORK_CWON_MOLIERE_2_NAME',	'LOC_GREATWORK_CWON_MOLIERE_2_QUOTE',	4,	''),
+			('GREATWORK_CWON_DANTE_1',	'GREATWORKOBJECT_WRITING',		'GREAT_PERSON_INDIVIDUAL_CWON_DANTE',		'LOC_GREATWORK_CWON_DANTE_1_NAME',			'LOC_GREATWORK_CWON_DANTE_1_QUOTE',		4,			''),
+			('GREATWORK_CWON_DANTE_2',	'GREATWORKOBJECT_WRITING',		'GREAT_PERSON_INDIVIDUAL_CWON_DANTE',		'LOC_GREATWORK_CWON_DANTE_2_NAME',			'LOC_GREATWORK_CWON_DANTE_2_QUOTE',		4,			'');
+
+INSERT INTO GreatWork_YieldChanges
+			(GreatWorkType,					YieldType,			YieldChange)
+VALUES		
+			('GREATWORK_CWON_JOHN_DONNE_1',	'YIELD_CULTURE',	4),
+			('GREATWORK_CWON_JOHN_DONNE_2',	'YIELD_CULTURE',	4),
+			('GREATWORK_CWON_MOLIERE_1',	'YIELD_CULTURE',	4),
+			('GREATWORK_CWON_MOLIERE_2',	'YIELD_CULTURE',	4),
+			('GREATWORK_CWON_DANTE_1',	'YIELD_CULTURE',	4),
+			('GREATWORK_CWON_DANTE_2',	'YIELD_CULTURE',	4);
