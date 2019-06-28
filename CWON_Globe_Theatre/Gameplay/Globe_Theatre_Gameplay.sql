@@ -146,14 +146,6 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('GLOBE_THEATRE_A
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_GLOBE_THEATRE', 'GLOBE_THEATRE_AMPHITHEATER_AMENITY_MODIFIER');
 
 
--- DO NOT COMMIT - Testing Only
---DELETE FROM GreatWork_YieldChanges WHERE GreatWorkType IN (SELECT GreatWorkType FROM GreatWorks WHERE GreatWorkObjectType = 'GREATWORKOBJECT_WRITING');
-
---DELETE FROM GreatWorks WHERE GreatWorkObjectType = 'GREATWORKOBJECT_WRITING';
-
---DELETE FROM GreatPersonIndividuals WHERE GreatPersonClassType = 'GREAT_PERSON_CLASS_WRITER';
-
-
 -- Add Renaissance Great Writers - John Donne, Moliere and Dante.
 INSERT INTO Types
 			(Type,										Kind)
