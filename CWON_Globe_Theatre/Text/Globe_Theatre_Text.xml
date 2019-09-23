@@ -89,5 +89,57 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_3" Language="es_ES">
 			<Text>El escenario tenía 13 metros de ancho por 8 de profundidad y se levantaba metro y medio del suelo, lo que permitía el uso de trampillas.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_NAME" Language="de_DE">
+			<Text>Globe Theatre</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_DESCRIPTION" Language="de_DE">
+			<Text>+1 [ICON_Amenities] Annehmlichkeit in allen Städten mit einem Amphitheater. Enthält zwei Plätze für Große Schriftwerke [ICON_GreatWork_Writing]. 1 freier Großer Schriftsteller erscheint neben der Stadt, in der das Wunder errichtet wurde. Muss auf Grasland, Ebene oder Tundra errichtet werden und an einen Fluss angrenzen.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_QUOTE" Language="de_DE">
+			<Text>"Lieber Herr, wollt Ihr für die Bewirtung der Schauspieler sorgen? Hört Ihr, laßt sie gut behandeln, denn sie sind der Spiegel und die abgekürzte Chronik des Zeitalters. Es wäre Euch besser, nach dem Tode eine schlechte Grabschrift zu haben als üble Nachrede von ihnen, solange Ihr lebt."[NEWLINE]– Hamlet, 2. Aufzug, 2. Szene.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Globe Theatre ist der Name eines elisabethanischen Theatergebäudes am Südufer der Themse in London, welches vor allem durch Aufführungen von William Shakespeares Werken einen bedeutenden Platz in der Theatergeschichte einnimmt. Es wurde 1599 erbaut und im 20. Jahrhundert an alter Stelle rekonstruiert. Auch mehrere moderne Nachbauten dieses Theaters in London und an anderen Orten tragen den Namen Globe.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Das Theater wurde am 29. Juni 1613 durch ein Feuer vernichtet, das während einer Aufführung des Stücks Heinrich VIII. ausbrach, als eine Kanone abgefeuert wurde und das strohgedeckte Dach in Brand setzte. Sehr aufwändige Aufführungen voller realistischer Zutaten waren damals durchaus die Regel. Das Theater wurde aber schon bald wieder aufgebaut, diesmal mit Ziegeldach und im Juli des folgenden Jahres eröffnet. Im Jahr 1642 schloss die puritanische Regierung alle Vergnügungsstätten und somit auch die Theater. Das Globe stand leer und wurde 1644 abgerissen. An seiner Stelle baute man Mietshäuser, und der ursprüngliche Standort dieses bedeutenden Theaters wurde vergessen, bis 1989 im Rahmen von Bauarbeiten Reste des Fundaments wiederentdeckt wurden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_GLOBE_THEATRE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Das Besondere, und der größte Unterschied zu den heutigen Theatern, besteht wohl, abgesehen von der ungewöhnlichen Bauform, in der großen Nähe zwischen Zuschauern und Schauspielern. Kein Platz war mehr als 20 Meter von der Bühne entfernt, und stand man im Innenhof, so waren die Schauspieler wortwörtlich zum Greifen nahe. Die rechteckige Bühne ragte in den Zuschauerraum hinein (Apron Stage). Sie war etwa 15 Meter breit und 9 Meter tief. Im Gegensatz zum Innenhof war sie überdacht.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_JOHN_DONNE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>John Donne (22. Januar 1572 – 31. März 1631) war ein englischer Schriftsteller und der bedeutendste der metaphysischen Dichter. Sein Werk umfasst Predigten, religiöse Gedichte, Übersetzungen aus dem Lateinischen, Epigramme, Elegien, Lieder und Sonette. Charakteristisch für Donnes Lyrik ist insbesondere seine Sakralisierung des Erotischen und die damit verbundene Entwicklung einer aus literaturgeschichtlicher Sicht provozierenden neuen Form der Liebeslyrik, in der insbesondere das körperliche Begehren und die Sexualität als heiliges Mysterium erscheinen. Neuartig ist dabei nicht so sehr seine Verwendung durchaus unkonventioneller religiöser Bilder oder Metaphern in einem erotischen Diskurs, sondern vor allem die Heiligsprechung der Liebe als körperlich-sexueller Erfahrung in einer Metaphorik und Bildersprache, die ans Blasphemische grenzt.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_DANTE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Dante Alighieri (1265 –  1321) war ein italienischer Dichter und Philosoph. Er überwand mit der in altitalienisch (bzw. toskanisch) verfassten Göttlichen Komödie das bis dahin dominierende Latein und führte das Italienische zu einer Literatursprache. Dante ist einer der bekanntesten Dichter der italienischen Literatur sowie des europäischen Mittelalters. Dantes Werk schöpft souverän aus der Theologie, der Philosophie und den übrigen Wissenschaften (Artes liberales) seiner Zeit. Es bezieht sich kunstvoll auf Vorbilder in der italienischen, provenzalischen, altfranzösischen und lateinischen Dichtung. Dante verbindet dabei Gelehrsamkeit und literarische Bildung mit einem hohen Maß an Eigenständigkeit in der gedanklichen Aneignung und im sprachlichen und poetischen Ausdruck. Wie kein anderer Dichter vor ihm stellt er die eigene Person als Liebender und Leidender, als Irrender und Lernender in den Mittelpunkt seiner Werke. Er spricht sich dabei nicht einfach selbst bekenntnishaft aus und macht sich nicht schlicht zum Chronisten seiner persönlichen Entwicklung, sondern stilisiert das Ich seiner Werke – deren lyrisches, erzählendes oder lehrhaftes Ich und die Erfahrung, die es zur Sprache bringt – nach Maßgabe genauer Wirkungsabsichten im Rahmen einer von Werk zu Werk fortentwickelten „Autofiktion“ (Hausmann). Er verbindet dieses Vorgehen mit dem hohen ethischen Anspruch, dem Leser, der politischen Gesellschaft und selbst der Kirche seiner Zeit einen Spiegel zur Selbsterkenntnis und ein Leitbild auf dem Weg zur Besserung zu bieten. Für ihn liegt das Ziel dieses Wegs im Persönlichen (ebenso wie im Politischen und Kirchenpolitischen) in der Übereinstimmung mit der göttlichen Weltordnung, wie sie nach seiner Überzeugung in der Bibel und ihrer inspirierten Auslegung durch die frühen Kirchenlehrer offenbart und zum Teil auch schon in den Werken der antiken Dichter (Vergil) und Philosophen (Aristoteles) vorgezeichnet ist.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_CWON_MOLIERE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Jean-Baptiste Poquelin, alias Molière; (1622 – 1673) war ein französischer Schauspieler, Theaterdirektor und Dramatiker. Er gilt als einer der großen Klassiker und machte die Komödie zu einer der Tragödie potenziell gleichwertigen Gattung. Vor allem erhob er das Theater seiner Zeit zum Diskussionsforum über allgemeine menschliche Verhaltensweisen in der Gesellschaft. Molière ist ein Künstlername, den der Schauspieler und spätere Autor wohl ab 1643, spätestens jedoch seit Juni 1644 benutzte. Die Herkunft des Namens ist unklar, vielleicht stand eine gleichnamige südfranzösische Ortschaft Pate. Den Durchbruch erzielte Molière im November 1659 mit seiner in Prosa verfassten Komödie Les précieuses ridicules (Die lächerlichen feinen Damen), seinem ersten für ein überwiegend Pariser Publikum konzipierten Stück. Am Beispiel der beiden Protagonistinnen, zweier etwas exaltierter, möchte-gern-adelig und gebildet tuender Bürgermädchen, verspottet er hier die gekünstelte Sprechweise und die wirklichkeitsfremden Denkweisen der Preziösen, wie sie inzwischen auch im Bürgertum zu finden waren.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_NAME" Language="de_DE">
+			<Text>Lieder und Sonette</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_MOLIERE_1_NAME" Language="de_DE">
+			<Text>Der Menschenfeind</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_JOHN_DONNE_1_QUOTE" Language="de_DE">
+			<Text>Niemand ist eine Insel, in sich ganz; jeder Mensch ist ein Stück des Kontinents, ein Teil des Festlandes. Jedes Menschen Tod ist mein Verlust, denn ich bin Teil der Menschheit; und darum verlange nie zu wissen, wem die Stunde schlägt; sie schlägt dir selbst.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_JOHN_DONNE_2_QUOTE" Language="de_DE">
+			<Text>Wie des Erdgrundes eng gewundene Bahn gallbitteres Salz aus Meereswasser siebt, so, schien mir, müßt ich meinen Wahn durch Reimnot plagen, bis er sich ergibt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_DANTE_2_QUOTE" Language="de_DE">
+			<Text>Der eine wartet, daß die Zeit sich wandelt, der andere packt sie kräftig an und handelt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_DANTE_1_QUOTE" Language="de_DE">
+			<Text>Schwach ist die Liebe, die sich noch in Worten ausdrücken läßt.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_MOLIERE_1_QUOTE" Language="de_DE">
+			<Text>Wie leicht doch bildet man sich eine falsche Meinung, geblendet vom Glanz der äußeren Erscheinung.</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATWORK_CWON_MOLIERE_2_QUOTE" Language="de_DE">
+			<Text>Man kann ein anständiger Mensch sein und doch schlechte Verse machen.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
