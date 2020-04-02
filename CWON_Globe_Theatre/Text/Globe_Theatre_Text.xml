@@ -5,7 +5,7 @@
 			<Text>Globe Theatre</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_DESCRIPTION">
-			<Text>+1 [ICON_Amenities] Amenities in all cities that have an Amphitheater. Contains 2 slots for Great Works of Writing [ICON_GreatWork_Writing]. 1 free Great Writer appears near the city where the wonder was built (if one is available).  It must be built on Grassland, Plains or Tundra next to a River.</Text>
+			<Text>+1 [ICON_Amenities] Amenities in all cities that have an Amphitheater or Marae. Contains 2 slots for Great Works of Writing [ICON_GreatWork_Writing]. 1 free Great Writer appears near the city where the wonder was built (if one is available).  It must be built on Grassland, Plains or Tundra next to a River.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_GLOBE_THEATRE_QUOTE">
 			<Text>"Good, my lord, will you see the players well bestowed? Do you hear, let them be well used; for they are the abstract and brief chronicles of the time: after your death you were better have a bad epitaph than their ill report while you live."[NEWLINE]–Hamlet Act II, Scene 2.</Text>
